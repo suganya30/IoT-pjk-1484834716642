@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-pjk
+  host: IoT-pjk
+  disk_quota: 1024M
+  services:
+  - IoT-pjk-cloudantNoSQLDB
+  - IoT-pjk-iotf-service
